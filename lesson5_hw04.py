@@ -1,3 +1,3 @@
 val = (input ("Please, enter some string.  "))
-print (sorted (val))
-доработать
+print ("Прямой порядок отображения строки: ", sorted (val))
+print ("Обратный порядок отображения строки: ", sorted (val, reverse = True))
