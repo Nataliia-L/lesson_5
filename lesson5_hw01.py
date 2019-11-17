@@ -1,3 +1,2 @@
-string = ("this is my homework")
-print ("".join(sorted(string)))
-доработать
+st = ("this is my homework")
+print ("".join(sorted (st, reverse = True)))
