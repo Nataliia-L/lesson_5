@@ -1,2 +1,4 @@
-st = ("this is my homework")
-print ("".join(sorted (st, reverse = True)))
+import string
+st = dir ()
+print (st.sort(reverse = True))
+print (st)
