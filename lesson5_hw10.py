@@ -1,6 +1,9 @@
 import random
-val = str (random.randint (0,9))
-val2 = (list (val*30))
-print ("Current list: ", "".join(val2)) 
-val2[2] = str (1000)
-print ("New list: ", "".join(val2))
+val = ([random.randint (0,9)]*30)
+print (val)
+print (len (val [::3]))
+print ((val [::3]))
+val [2::3] = [1000]*10
+print (val)
+del val[0]
+print (val)
