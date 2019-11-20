@@ -1,3 +1,5 @@
-val = (input ("Please, enter some string.  "))
-print ("Прямой порядок отображения строки: ", sorted (val))
-print ("Обратный порядок отображения строки: ", sorted (val, reverse = True))
+n = list (input ("Please, enter some string  "))
+n.sort()
+print ("Прямой порядок отображения строки: ", n)
+n.sort(reverse = True)
+print ("Обратный порядок отображения строки: ", n)
